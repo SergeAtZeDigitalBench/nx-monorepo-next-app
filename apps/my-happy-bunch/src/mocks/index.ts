@@ -1,4 +1,4 @@
-import heroSections from './hero.json';
+import { data as heroSections } from './hero';
 
 export const getHeroSection = (pathname: string) => {
   const found = heroSections.find((current) => current.pathname === pathname);
