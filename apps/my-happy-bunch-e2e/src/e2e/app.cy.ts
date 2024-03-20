@@ -1,7 +1,12 @@
 import { getGreeting } from '../support/app.po';
 
 describe('my-happy-bunch-e2e', () => {
-  beforeEach(() => cy.visit('/', { timeout: 50_000 }));
+  beforeEach(() =>
+    cy.visit('/', {
+      timeout: 50_000,
+      headers: { 'Accept-Encoding': 'gzip, deflate' },
+    })
+  );
 
   it('should display page heading message', () => {
     // Custom command example, see `../support/commands.ts` file
