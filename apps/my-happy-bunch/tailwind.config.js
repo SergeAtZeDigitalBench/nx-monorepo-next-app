@@ -13,18 +13,18 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        gallery: "repeat(auto-fit, minmax(250px, 1fr))",
+        gallery: 'repeat(auto-fit, minmax(250px, 1fr))',
         pages: 'repeat(auto-fit, minmax(350px, 1fr))',
       },
       fontFamily: {
-        arOneSans: ["var(--font-ar-one-sans)", "sans-serif"],
-        albertSans: ["var(--font-albert-sans)", "sans-serif"],
+        arOneSans: ['var(--font-ar-one-sans)', 'sans-serif'],
+        albertSans: ['var(--font-albert-sans)', 'sans-serif'],
       },
       fontSize: {
-        "2xs": ["0.5rem", "0.75rem"],
+        '2xs': ['0.5rem', '0.75rem'],
       },
       screens: {
-        xs: "475px",
+        xs: '475px',
       },
     },
   },
