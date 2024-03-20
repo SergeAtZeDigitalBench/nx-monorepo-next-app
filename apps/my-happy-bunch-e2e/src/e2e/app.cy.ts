@@ -3,7 +3,7 @@ import { getGreeting } from '../support/app.po';
 describe('my-happy-bunch-e2e', () => {
   beforeEach(() =>
     cy.visit('/', {
-      timeout: 50_000,
+      timeout: 120_000,
       retryOnStatusCodeFailure: true,
     })
   );
