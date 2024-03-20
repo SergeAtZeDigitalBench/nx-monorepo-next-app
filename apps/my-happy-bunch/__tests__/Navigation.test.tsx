@@ -2,11 +2,11 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 
-import Page from '../src/app/page';
+import Navigation from '../src/components/Navigation';
 
-describe('Page', () => {
+describe('Navigation', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Page />);
+    const { baseElement } = render(<Navigation />);
     expect(baseElement).toBeDefined();
   });
 });
