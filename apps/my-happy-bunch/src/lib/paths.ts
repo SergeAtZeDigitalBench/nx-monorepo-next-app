@@ -6,9 +6,4 @@ export const paths = {
   register: () => '/register',
   signin: () => '/signin',
   private: { account: () => '/private/account' },
-  api: {
-    auth: {
-      register: () => '/api/auth/register',
-    },
-  },
 };

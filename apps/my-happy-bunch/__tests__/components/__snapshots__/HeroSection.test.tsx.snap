@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HeroSection > HeroSectionSkeleton > should match the snapshot 1`] = `
+<body>
+  <div>
+    <section
+      class=" bg-white px-2 py-8"
+    >
+      <div
+        class="min-h-[30vh] max-w-5xl mx-auto grid grid-cols-1 gap-2 md:grid-cols-[2fr_1fr]  p-2 border-2 border-slate-300 rounded-lg"
+      >
+        <div
+          class=" h-full flex flex-col justify-start items-center"
+        >
+          <div
+            class=" bg-slate-200 h-[95px] rounded w-full my-2"
+          >
+             
+          </div>
+          <div
+            class=" bg-slate-200  h-[50px] rounded w-full my-2"
+          >
+             
+          </div>
+        </div>
+        <div
+          class="hidden md:h-full md:flex md:flex-col justify-start items-center"
+        >
+          <div
+            class=" bg-slate-200 h-[200px] w-full rounded my-2"
+          >
+             
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+`;
