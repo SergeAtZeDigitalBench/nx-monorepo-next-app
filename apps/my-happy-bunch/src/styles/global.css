@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply font-albertSans;
+    @apply font-albertSans  text-slate-900;
   }
 }
