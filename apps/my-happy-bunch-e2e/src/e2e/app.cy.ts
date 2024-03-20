@@ -1,7 +1,7 @@
 import { getGreeting } from '../support/app.po';
 
 describe('my-happy-bunch-e2e', () => {
-  beforeEach(() => cy.visit('/'));
+  beforeEach(() => cy.visit('/', { timeout: 10_000 }));
 
   it('should display page heading message', () => {
     // Custom command example, see `../support/commands.ts` file
