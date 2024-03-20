@@ -1,0 +1,9 @@
+{
+  "name": "my-happy-bunch-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-happy-bunch-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["my-happy-bunch"],
+  "// targets": "to see all targets run: nx show project my-happy-bunch-e2e --web",
+  "targets": {}
+}

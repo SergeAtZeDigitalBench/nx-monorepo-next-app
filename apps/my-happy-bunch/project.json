@@ -1,0 +1,9 @@
+{
+  "name": "my-happy-bunch",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-happy-bunch",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project my-happy-bunch --web",
+  "targets": {}
+}
