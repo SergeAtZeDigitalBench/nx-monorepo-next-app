@@ -2,7 +2,9 @@
   "name": "@my-happy-bunch/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test:watch": "vitest"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
