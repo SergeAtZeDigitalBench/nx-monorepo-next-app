@@ -4,7 +4,7 @@ describe('my-happy-bunch-e2e', () => {
   beforeEach(() =>
     cy.visit('/', {
       timeout: 50_000,
-      headers: { 'Accept-Encoding': 'gzip, deflate' },
+      retryOnStatusCodeFailure: true,
     })
   );
 
