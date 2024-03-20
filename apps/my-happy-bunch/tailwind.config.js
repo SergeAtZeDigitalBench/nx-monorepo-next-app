@@ -17,7 +17,7 @@ module.exports = {
         pages: 'repeat(auto-fit, minmax(350px, 1fr))',
       },
       fontFamily: {
-        arOneSans: ["var(--font-ar-one-sans)", "sans-serif"],
+        arOneSans: ["var(--font-ar-one-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
         albertSans: ["var(--font-albert-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       fontSize: {
