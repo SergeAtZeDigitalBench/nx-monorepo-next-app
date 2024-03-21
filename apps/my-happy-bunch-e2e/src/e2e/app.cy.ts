@@ -1,11 +1,14 @@
 import { getGreeting } from '../support/app.po';
 
 describe('my-happy-bunch-e2e', () => {
-  beforeEach(() => cy.visit('/'));
+  beforeEach(() =>
+    // eslint-disable-next-line cypress/no-unnecessary-waiting
+    cy.wait(3000).then(() => {
+      cy.visit('/');
+    })
+  );
 
   it('should display welcome message', () => {
-    // eslint-disable-next-line cypress/no-unnecessary-waiting
-    cy.wait(3000);
     // Custom command example, see `../support/commands.ts` file
     cy.login('my-email@something.com', 'myPassword');
 
