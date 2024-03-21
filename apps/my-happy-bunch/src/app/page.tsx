@@ -1,7 +1,10 @@
+import HeroSection from '../components/HeroSection';
+
 const Homepage = () => {
   return (
     <>
-      <h1>Welcome, please select from below</h1>
+      <h1>Homepage heading content</h1>
+      <HeroSection pathname="homepage" />
     </>
   );
 };

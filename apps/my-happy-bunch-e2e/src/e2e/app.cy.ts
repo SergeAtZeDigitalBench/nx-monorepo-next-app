@@ -9,7 +9,7 @@ describe('my-happy-bunch-e2e', () => {
 
     // https://learn.cypress.io/cypress-fundamentals/understanding-the-asynchronous-nature-of-cypress
     getGreeting().then(($heading) => {
-      cy.wrap($heading).contains(/Welcome, please select from below/i);
+      cy.wrap($heading).contains(/Homepage heading content/i);
     });
   });
 });
