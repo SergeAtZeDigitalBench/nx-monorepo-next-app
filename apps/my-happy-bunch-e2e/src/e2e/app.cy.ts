@@ -1,12 +1,7 @@
 import { getGreeting } from '../support/app.po';
 
 describe('my-happy-bunch-e2e', () => {
-  beforeEach(() =>
-    // eslint-disable-next-line cypress/no-unnecessary-waiting
-    cy.wait(3000).then(() => {
-      cy.visit('/');
-    })
-  );
+  beforeEach(() => cy.visit('/', { failOnStatusCode: false }));
 
   it('should display welcome message', () => {
     // Custom command example, see `../support/commands.ts` file
