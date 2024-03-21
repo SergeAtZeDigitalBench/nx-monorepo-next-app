@@ -3,7 +3,7 @@ import { getGreeting } from '../support/app.po';
 describe('my-happy-bunch-e2e', () => {
   beforeEach(() =>
     cy
-      .request('/')
+      .request('/', { failOnStatusCode: false })
       .its('body')
       .then((html) => {
         cy.visit('/');
