@@ -1,10 +1,13 @@
-import HeroSection from '../components/HeroSection';
+import { Suspense } from 'react';
+
+import HeroSection, { HeroSectionSkeleton } from '../components/HeroSection';
 
 const Homepage = () => {
   return (
     <>
-      <h1>Homepage heading content</h1>
-      <HeroSection pathname="homepage" />
+      <Suspense fallback={<HeroSectionSkeleton />}>
+        <HeroSection pathname="home" />
+      </Suspense>
     </>
   );
 };
